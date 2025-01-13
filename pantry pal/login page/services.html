@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - PantryPal</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url('https://source.unsplash.com/1600x900/?kitchen,services') no-repeat center center/cover;
+            color: #333;
+        }
+
+        .navbar {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFB74D;
+        }
+
+        .services-container {
+            padding: 100px 20px 20px;
+            text-align: center;
+        }
+
+        .services-container h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .services-container p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto 40px;
+        }
+
+        .services-list {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        .service-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+
+        .service-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #ffffff;
+        }
+
+        .footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html">PantryPal</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="services-container">
+        <h1>Our Services</h1>
+        <p>At PantryPal, we aim to simplify your cooking experience by offering fully equipped kitchens and more. Here's what we provide:</p>
+
+        <div class="services-list">
+            <div class="service-card" style="background-image: url(https://imgs.search.brave.com/Tl1cqX4A_-zWWlWX6SP7U8s_HOPzVIWZfoH2a70uXDo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L0xN/dDZOdTdmdUZrSng3/dlJTeUE4NDYtMzIw/LTgwLmpwZw);">
+               
+                <h3>Kitchen Rental</h3>
+                <p>Rent a fully equipped kitchen with all the tools you need for a great cooking experience.</p>
+            </div>
+            <div class="service-card" style="background-image: url(https://imgs.search.brave.com/IHWCyEUXxQBXOaD0Jv7Bdnv9gTEp5-z6xwk9nhy9buk/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9raXRj/aGVuYW1iaXRpb24u/Yi1jZG4ubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDIxLzA5/L2Nvb2tpbmctaW5n/cmVkaWVudHMtNzQw/eDUwOS5qcGc);">
+                
+                <h3>Ingredients Provided</h3>
+                <p>Fresh ingredients available to match the recipes you choose to cook.</p>
+            </div>
+            <div class="service-card" style="background-image: url(https://imgs.search.brave.com/QZISSXVmcyQZpikjCGN7hLqfC3_U4lg3qOr6s-wdulg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z3JjYy5lZHUvc2l0/ZXMvZGVmYXVsdC9m/aWxlcy9zdHlsZXMv/cmVmZXJlbmNlX2Nh/cmQvcHVibGljLzIw/MjMtMDkvQ3VsaW5h/cnlfSGVyaXRhZ2Vf/MDJfMjAyM18wMTMl/MjAoMSkuanBnP2g9/YzhiNjQxZmQmaXRv/az1BY2o4Y29SSA); background-size: cover; ">
+                
+                <h3>Cooking Support</h3>
+                <p>Optional guidance from experienced cooks to help you create delicious meals.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 PantryPal. All rights reserved.</p>
+    </div>
+</body>
+</html>

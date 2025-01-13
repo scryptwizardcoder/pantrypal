@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PantryPal - Your Kitchen Solution</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .navbar {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1rem;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #FFB74D;
+        }
+
+        header {
+            background: url('https://source.unsplash.com/1600x900/?modern-kitchen') no-repeat center center/cover;
+            color: rgb(129, 44, 44);
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 20px;
+        }
+
+        header a {
+            background: #FF6F61;
+            color: rgb(123, 51, 51);
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 1rem;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        header a:hover {
+            background: #e65a50;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .service {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: #2F4F4F;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #FFB74D;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">PantryPal</a>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+    <header>
+        <h1>Welcome to PantryPal</h1>
+        <p>Your Kitchen Solution for Students and Bachelors</p>
+        <a href="#services">Get Started</a>
+    </header>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service">
+                <img src="https://img.icons8.com/color/96/kitchen.png" alt="Kitchen Rental">
+                <h3>Kitchen Rentals</h3>
+                <p>Reserve fully equipped kitchens at affordable rates.</p>
+            </div>
+            <div class="service">
+                <img src="https://img.icons8.com/color/96/ingredients.png" alt="Fresh Ingredients">
+                <h3>Fresh Ingredients</h3>
+                <p>We provide all the ingredients you need for your recipe.</p>
+            </div>
+            <div class="service">
+                <img src="https://img.icons8.com/color/96/chef-hat.png" alt="Cooking Support">
+                <h3>Cooking Support</h3>
+                <p>Get guidance from our in-house chefs if needed.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 PantryPal. All Rights Reserved. | <a href="#">Contact Us</a></p>
+    </footer>
+</body>
+</html>
